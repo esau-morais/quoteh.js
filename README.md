@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# Quoteh
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Quoteh](./src/assets/Logo.svg)
 
-## Available Scripts
+## Table of content
 
-In the project directory, you can run:
+-[About](#about)
+-[Goals](#goals)
+-[Built with](#built-with)
+-[Folder structure](#folder-structure)
+-[Installation](#how-do-i-start)
 
-### `yarn start`
+## About
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Quoteh is a simple app that help users to share and highlight their favorite quotes
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Goals
 
-### `yarn test`
+- [X] Get quotes (API)
+- [X] Generate random quotes on click
+- [ ] Share on highlight 
+- [ ] Create a dynamic image
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Built with
 
-### `yarn build`
+- React.js
+  - fetch
+  - useState
+  - useEffect
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Folder structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+src
+├── App.js
+├── assets
+│   ├── Logo.svg
+│   └── Skeleton.svg
+├── components
+│   ├── quote.css
+│   └── quote.js
+├── global.css
+├── index.js
+├── reportWebVitals.js
+└── setupTests.js
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## How do I start?
 
-### `yarn eject`
+1. Fork this project
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![Forking the project](https://camo.githubusercontent.com/6f03010c651d060f8b7cfc17da7098c1757c4ead/68747470733a2f2f6669727374636f6e747269627574696f6e732e6769746875622e696f2f6173736574732f526561646d652f666f726b2e706e67)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Clone the forked repository
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+    `git clone https://github.com/user/quoteh` (if you use `git`)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+    or
 
-## Learn More
+    `gh repo clone https://github.com/user/quoteh` (if you use `gh` cli)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. Install the dependencies
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    `npm install` (if you use `npm`)
 
-### Code Splitting
+    or
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    `yarn` (if you use   `yarn`)
 
-### Analyzing the Bundle Size
+4. Start the project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+    `npm start` (if you `npm`)
 
-### Making a Progressive Web App
+    or
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+    `yarn start` (if you use `yarn`)
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[LICENSE](./LICENSE)

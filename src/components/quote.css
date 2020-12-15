@@ -1,0 +1,101 @@
+/* -------- Container -------- */
+div {
+  padding: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 100vh
+}
+/* -------- Logo/Skeleton -------- */
+svg.logo {
+  width: 20%;
+
+  position: absolute;
+  top: 0;
+  right: 2rem
+}
+
+svg.skeleton {
+  align-self: flex-start
+}
+
+blockquote {
+  max-width: 50%;
+  max-height: 50%;
+  align-self: flex-start
+}
+/* -------- Quote -------- */
+blockquote > p {
+  margin-bottom: 1rem;
+
+  max-height: 12.5rem;
+  overflow: auto;
+
+  color: #1D1D1D;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Button to generate a new quote */
+
+button {
+  margin: 2rem 0;
+  padding: 6px 12px;
+  align-self: flex-start;
+
+  height: 2rem;
+
+  font-size: 0.875rem;
+
+  border-style: none;
+  border: 1px solid #1D1D1D;
+  border-radius: 0.5rem;
+
+  background-color: #FFC75B;
+  transition: background-color .2s ease-in-out;
+  color: #1D1D1D;
+
+  cursor: pointer
+}
+
+button:focus {
+  outline: 1px dashed #1D1D1D
+}
+
+button:hover {
+  background-color: transparent
+}
+
+/* -------- Responsive design -------- */
+
+@media screen and (max-width: 780px) {
+  /* ---- Container ---- */
+  div {
+    padding: 1rem 0
+  }
+  /* ---- Logo/Skeleton ---- */
+  svg.logo {
+    width: 50%;
+    position: unset;
+    top: unset;
+    right: unset
+  }
+  
+  svg.skeleton {
+    width: 80%
+  }
+  /* ---- Quote ---- */
+  blockquote {
+    max-width: 80%
+  }
+  
+  svg.skeleton, 
+  blockquote,
+  button {
+    align-self: center
+  } 
+}

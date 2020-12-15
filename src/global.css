@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  font-family: 'Fira Code', sans-serif
+}
+
+body, html, #root {
+  width: 100%;
+  min-height: 100%  
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #1D1D1D
+}
