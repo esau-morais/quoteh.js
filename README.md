@@ -4,11 +4,11 @@
 
 ## Table of content
 
--[About](#about)
--[Goals](#goals)
--[Built with](#built-with)
--[Folder structure](#folder-structure)
--[Installation](#how-do-i-start)
+- [About](#about)
+- [Goals](#goals)
+- [Built with](#built-with)
+- [Folder structure](#folder-structure)
+- [Installation](#how-do-i-start)
 
 ## About
 
