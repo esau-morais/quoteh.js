@@ -70,6 +70,43 @@ button:hover {
   background-color: transparent
 }
 
+/* -------- Popover -------- */
+div.popover {
+  max-width: fit-content;
+  max-height: 2rem;
+  padding: 0.5rem;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 50;
+  transition: .2s all;
+
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  
+  background-color: #292929;
+  color: #FFFFFF;
+  border-radius: 3px;
+}
+
+div.popover::after {
+  content: '';
+
+  position: absolute;
+  left: 50%;
+  bottom: -5px;
+  transform: translateX(-50%);
+
+  width: 0;
+  height: 0;
+
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #292929
+}
+
 /* -------- Responsive design -------- */
 
 @media screen and (max-width: 780px) {
